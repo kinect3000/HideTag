@@ -1,0 +1,17 @@
+name: HideTag
+main: hide/tag
+version: 0.2
+api: [1.0.0]
+load: POSTWORLD
+
+author: Wantedkillers
+website: github.com/PocketWarriors/hideTag
+command:
+hidetag
+permission: magic.ball
+  description: tells u the answer to all your questions
+  usage: /hidetag <Question
+permissions:
+ magicball:
+  default: true
+  description: tells u the answer to all your questions
