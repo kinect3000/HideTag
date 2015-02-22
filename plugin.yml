@@ -8,9 +8,9 @@ author: Wantedkillers
 website: github.com/PocketWarriors/hideTag
 command:
 hidetag
-permission: hide.command
-  description: tells u the answer to all your questions
-  usage: /hidetag <Question
+permission: hidetag.command
+  description: Hide your name
+  usage: /hidetag <PT>
 //permissions:
  //magicball:
 // / default: true
