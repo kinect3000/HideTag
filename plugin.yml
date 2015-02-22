@@ -8,10 +8,10 @@ author: Wantedkillers
 website: github.com/PocketWarriors/hideTag
 command:
 hidetag
-permission: magic.ball
+permission: hide.command
   description: tells u the answer to all your questions
   usage: /hidetag <Question
-permissions:
- magicball:
-  default: true
-  description: tells u the answer to all your questions
+//permissions:
+ //magicball:
+// / default: true
+ // description: tells u the answer to all your questions
