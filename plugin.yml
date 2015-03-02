@@ -1,0 +1,17 @@
+name: HideTag
+main: hide/tag
+version: 0.2
+api: [1.0.0]
+load: POSTWORLD
+
+author: Wantedkillers
+website: github.com/PocketWarriors/hideTag
+command:
+hidetag
+permission: hidetag.command
+  description: Hide your name
+  usage: /hidetag <PT>
+//permissions:
+ //magicball:
+// / default: true
+ // description: tells u the answer to all your questions
