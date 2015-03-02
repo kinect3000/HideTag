@@ -9,10 +9,10 @@ website: github.com/PocketWarriors/hideTag
 commands:
   hidetag:
     description: Hide your name
-    usage: /hidetag <PT>
+    usage: /hidetag
   unhidetag:
     description: Hide your name
-    usage: /unhidetag <PT>
+    usage: /unhidetag
 permissions:
   hidetag.command:
     description: "Hide oneself and unhide oneself"
