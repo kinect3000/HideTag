@@ -1,23 +1,27 @@
 <?php
 
-namespace Wantedkillers\hidetag;
+namespace Wantedkillerss\HideTag;
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\plugin\Plugin;
 use pocketmine\Player;
 use pocketmine\command\CommandExecutor;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\utils\TextFormat;
 
-class tag extends PluginBase{
-     private hiden;
-     
+class Tag extends PluginBase{
+
      public function onEnable(){
-          $this->getLogger()->info(TextFormat::AQUA." Loaded SUccessfully!");
+          $this->getLogger()->info(TextFormat::AQUA." Loaded Successfully!");
+     }
+     
+     public function onDisable(){
+          $this->getLogger()->info(TextFormat::AQUA." Unloaded Successfully!");
      }
      
      public function hide(Player $player){
-          $player->setNameTag(" ");
+          $player->setNameTag("");
           $player->sendMessage("[HideTag] Your NameTag has been hidden!!");
      }
      
@@ -47,4 +51,3 @@ class tag extends PluginBase{
           }
      }
 }
-?>
