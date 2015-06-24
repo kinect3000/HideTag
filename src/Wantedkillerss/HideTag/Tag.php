@@ -13,11 +13,11 @@ use pocketmine\utils\TextFormat;
 class Tag extends PluginBase{
 
      public function onEnable(){
-          $this->getLogger()->info(TextFormat::AQUA." Loaded Successfully!");
+          $this->getLogger()->info(TextFormat::GREEN." Loaded Successfully!");
      }
      
      public function onDisable(){
-          $this->getLogger()->info(TextFormat::AQUA." Unloaded Successfully!");
+          $this->getLogger()->info(TextFormat::RED." Unloaded Successfully!");
      }
      
      public function hide(Player $player){
@@ -42,11 +42,11 @@ class Tag extends PluginBase{
                          return true;
                     }
                }else{
-                    $issuer->sendMessage("Command only works in-game!");
+                    $issuer->sendMessage(TextFormat::RED."Command only works in-game!");
                     return true;
                }
           }else{
-               $issuer->sendMessage("You don't have permission for this!");
+               $issuer->sendMessage(TextFormat::RED."You don't have permission for this!");
                return true;
           }
      }
